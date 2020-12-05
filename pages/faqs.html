@@ -1,0 +1,93 @@
+<!doctype html>
+
+<html lang="en">
+
+<main>
+	<div class="container">
+		<br />
+		<br />
+
+		<div class="panel-group" id="accordion">
+			<div class="faqHeader">General questions</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+							href="#collapseOne">How
+							can I get involved in Scrum Lake?</a>
+					</h4>
+				</div>
+				<div id="collapseOne" class="panel-collapse collapse in">
+					<div class="panel-body">
+						We run regular meetups to explore Scrum Lake. Keep an eye on our 'Upcoming Workshops' page for
+						registration details. They are interactive events and so are not recorded. The only way to
+						participate is to get involved!
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+							href="#collapseTwo">Can I contribute to the development of Scrum Lake?</a>
+					</h4>
+				</div>
+				<div id="collapseTwo" class="panel-collapse collapse">
+					<div class="panel-body">
+						Currently, Scrum Lake is not open source. However, if after attending one of our events you have
+						some feedback for us to improve, please let us know and we may add it to our Product Backlog.
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+							href="#collapseThree">How much does it cost to attend a meetup?</a>
+					</h4>
+				</div>
+				<div id="collapseThree" class="panel-collapse collapse">
+					<div class="panel-body">
+						At the moment, all of the events are free to attend. The tools we use (Miro and
+						Zoom) do not require any paid subscriptions and therefore the only cost is your time
+						(although we're sure you'll get a good return on that investment!). Having said this, the
+						interest
+						has been incredibly high and so we may start to charge a small fee in future.
+					</div>
+				</div>
+			</div>
+		</div>
+
+</main>
+<style>
+	.faqHeader {
+		font-size: 27px;
+		margin: 20px;
+	}
+
+	.panel-heading [data-toggle="collapse"]:after {
+		font-family: 'Glyphicons Halflings';
+		content: "e072";
+		/* "play" icon */
+		float: right;
+		color: #F58723;
+		font-size: 18px;
+		line-height: 22px;
+		/* rotate "play" icon from > (right arrow) to down arrow */
+		-webkit-transform: rotate(-90deg);
+		-moz-transform: rotate(-90deg);
+		-ms-transform: rotate(-90deg);
+		-o-transform: rotate(-90deg);
+		transform: rotate(-90deg);
+	}
+
+	.panel-heading [data-toggle="collapse"].collapsed:after {
+		/* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		transform: rotate(90deg);
+		color: #454444;
+	}
+</style>
