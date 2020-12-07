@@ -1,10 +1,10 @@
 .bubble {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     background: #bbecff;
-    border-radius: 200px;
-    -moz-border-radius: 200px;
-    -webkit-border-radius: 200px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
     position: absolute;
 }
 
