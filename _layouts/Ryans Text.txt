@@ -1,12 +1,5 @@
-Disclaimers
-
-
-
-
 Vision
 For professionals interested in the Scrum framework, Scrum Lake is a place to share stories, discuss techniques and take a deeper dive into the Scrum Guide with fellow adventurers.
-
-
 
 Scrum Lake has been created by John Albrecht and Ryan Brook as a way to dive deeper into scrum
 
