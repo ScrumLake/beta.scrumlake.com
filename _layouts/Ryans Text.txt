@@ -1,0 +1,19 @@
+Disclaimers
+The statements made and opinions expressed belong exclusively to the authors and are not shared by or
+represent the viewpoint of Scrum.org. Scrum Lake does not constitute an endorsement of any product, service or point of view. Scrum.org makes no
+The statements made and opinions expressed belong exclusively to the authors and are not necessarily shared by or
+represent the viewpoint of any official organisation. Scrum Lake does not constitute an endorsement of any product, service or point of view. We make no
+representations, warranties or assurances of any kind, express or implied, as to the completeness, accuracy, reliability, suitability, availability or currency of the content contained on this website.
+
+All images and content contained on this website are expressly the property of its authors and may not be re-produced or re-used with prior written permission.
+
+
+
+
+Vision
+For professionals interested in the Scrum framework, Scrum Lake is a place to share stories, discuss techniques and take a deeper dive into the Scrum Guide with fellow adventurers.
+
+
+
+
+
