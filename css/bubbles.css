@@ -1,6 +1,6 @@
 
 .bubbles{
-    position:absolute;
+    position:static;
     width:100%;
     height: 100%;
     z-index:-1;
