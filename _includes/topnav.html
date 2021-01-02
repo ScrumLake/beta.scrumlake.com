@@ -29,6 +29,11 @@
     {% endif %}
 {% endfor %}
 
+
+{% if product.type != "A" and product.type != "B" and product.type != "C" %}
+    //do something
+{% endif %}
+
             </ul>
         </div>
     </div>
