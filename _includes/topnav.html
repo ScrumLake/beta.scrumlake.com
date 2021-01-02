@@ -28,8 +28,12 @@
                 </li>
     {% endif %}
 
-{% if page.url == '/' and item.url == '' %}
-    // Home
+{% if page.url == '/' %}
+    // page.url is /
+{% endif %}
+
+{% if item.url == '' %}
+    //  item.url is ''
 {% endif %}
 
 {% endfor %}
