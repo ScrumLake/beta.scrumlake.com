@@ -25,19 +25,15 @@
 
 {% for item in site.navigation %}
 
+                        <li>
     {% if item.url == '/' and page.url == '/' %}
-    <li>
-        {{ item.title }}
-    </li>
+                            {{ item.title }}
     {% elsif item.url != '/' and (page.url contains item.url) %}     
-    <li>
-        {{ item.title }}
-    </li>
+                            {{ item.title }}
     {% else %}
-    <li>
-        <a class="text-muted" href="{{ item.url }}">{{ item.title }}</a>
-    </li>
+                            <a class="text-muted" href="{{ item.url }}">{{ item.title }}</a>
     {% endif %}
+                        </li>
 
 {% endfor %}
 
