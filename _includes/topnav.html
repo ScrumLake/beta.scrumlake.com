@@ -19,11 +19,8 @@
                 <!-- page.url contains item.url -->
 {% for item in site.navigation %}
 
-    {% if item.url == '' %}
-        \\ item.url is blank
-    {% endif %}
-
-
+    {% assign absoluteitemurl = item.url | absolute_url %}
+    {% assign absolutepageurl = page.url | absolute_url %}
 
     {% if page.url contains item.url %}     
                 <li class="nav-item active">
@@ -34,6 +31,9 @@
                     <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
                 </li>
     {% endif %}
+
+    // '{{ absoluteitemurl }}' - '{{ absolutepageurl }}'
+
 {% endfor %}
 
             </ul>
@@ -41,4 +41,3 @@
     </div>
 </nav>
 
-// '{{ page.url }}' - '{{ item.url }}'
