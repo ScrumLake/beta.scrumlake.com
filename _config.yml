@@ -1,7 +1,9 @@
 navigation:
-  - title: blog
-    url: /blog/
-  - title: about
-    url: /about/
-  - title: projects
-    url: /projects/
+  - title: Scrum Lake
+    url: /
+  - title: Scrum Lake Story
+    url: /thestory/
+  - title: Your Facilitators
+    url: /divemasters/
+    - title: Upcoming Workshops
+    url: /workshops/
