@@ -16,9 +16,6 @@
 
 {% for item in site.navigation %}
 
-    {% assign absoluteitemurl = item.url | absolute_url %}
-    {% assign absolutepageurl = page.url | absolute_url %}
-
     {% if item.url == '/' and page.url == '/' %}
                 <li class="nav-item active parent">
                     <a class="nav-link" href="{{ item.url }}">1. {{ item.title }}<span class="sr-only">(current)</span></a>
@@ -32,9 +29,6 @@
                     <a class="nav-link" href="{{ item.url }}">3. {{ item.title }}</a>
                 </li>
     {% endif %}
-
-   <!-- // '{{ absoluteitemurl }}' - '{{ absolutepageurl }}'-->
-   <!-- // '{{ item.url }}' - '{{ page.url }}' -->
 
 {% endfor %}
 
