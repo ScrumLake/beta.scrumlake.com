@@ -22,7 +22,7 @@
     {% assign absoluteitemurl = item.url | absolute_url %}
     {% assign absolutepageurl = page.url | absolute_url %}
 
-    {% if page.url contains item.url %}     
+    {% if absoluteitemurl == absolutepageurl %}     
                 <li class="nav-item active">
                     <a class="nav-link" href="{{ item.url }}">{{ item.title }}<span class="sr-only">(current)</span></a>
                 </li>
