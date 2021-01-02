@@ -5,5 +5,5 @@ navigation:
     url: /thestory/
   - title: Your Facilitators
     url: /divemasters/
-    - title: Upcoming Workshops
+  - title: Upcoming Workshops
     url: /workshops/
