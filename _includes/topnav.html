@@ -27,12 +27,12 @@
                     <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
                 </li>
     {% endif %}
-{% endfor %}
 
-
-{% if page.url != '/' %}
-    // Not Home
+{% if page.url != '/' and item.url == '' %}
+    // Home
 {% endif %}
+
+{% endfor %}
 
             </ul>
         </div>
