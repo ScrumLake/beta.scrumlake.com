@@ -19,6 +19,10 @@
                 <!-- page.url contains item.url -->
 {% for item in site.navigation %}
 
+    {% if item.url == '' %}
+        \\ item.url is blank
+    {% endif %}
+
 
 
     {% if page.url contains item.url %}     
