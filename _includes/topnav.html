@@ -15,9 +15,13 @@
             <ul class="navbar-nav ml-auto">
 
 {% for item in site.navigation %}
+
+{{page.url}}<br/>
+{{page.id}}<br/>
+
     {% if page.url contains item.url %}
 
-                {{page.id}}
+                
 
 
                 <li class="nav-item active">
