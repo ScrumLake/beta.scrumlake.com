@@ -17,12 +17,9 @@
 {% for item in site.navigation %}
 
                 a {{page.url}}<br/>
-                b {{page.id}}<br/>
+                b {{item.url}}<br/>
 
-    {% if page.url contains item.url %}
-
-                
-
+    {% if page.url = contains item.url %}
 
                 <li class="nav-item active">
                     <a class="nav-link" href="{{ item.url }}">{{ item.title }}<span class="sr-only">(current)</span></a>
