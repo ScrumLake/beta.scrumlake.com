@@ -16,18 +16,14 @@
 
                 <div class="col-md-3 col-sm-4">
 
-                    <h5><a class="text-dark no-underline" href="/">Scrum Lake</a></h5>
-
                     <ul class="list-unstyled text-small">
+
+{% for item in site.navigation %}
                         <li>
-                            <a class="text-muted" href="/thestory">Scrum Lake Story</a>
+                            <a class="text-muted" href="{{ item.url }}">{{ item.title }}</a>
                         </li>
-                        <li>
-                            <a class="text-muted" href="/divemasters">Your Facilitators</a>
-                        </li>
-                        <li>
-                            <a class="text-muted" href="/workshops">Upcoming Workshops</a>
-                        </li>
+{% endfor %}
+
                     </ul>
 
                 </div>
