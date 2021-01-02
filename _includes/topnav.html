@@ -18,7 +18,13 @@
 
                 <!-- page.url contains item.url -->
 {% for item in site.navigation %}
-    {% if page.url contains item.url %}
+
+
+    {% if page.url == link.url %}   
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ item.url }}">{{ item.title }}<span class="sr-only">(current)</span></a>
+                </li>
+    {% elsif page.url != '/' and page.url contains link.url %}     
                 <li class="nav-item active">
                     <a class="nav-link" href="{{ item.url }}">{{ item.title }}<span class="sr-only">(current)</span></a>
                 </li>
@@ -27,16 +33,6 @@
                     <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
                 </li>
     {% endif %}
-
-{% if page.url == '/' %}
-    // page.url is /
-{% endif %}
-
-{% if item.url == nil %}
-    //  item.url is ''
-{% endif %}
-
-{% endfor %}
 
             </ul>
         </div>
