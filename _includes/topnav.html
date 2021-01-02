@@ -19,11 +19,11 @@
     {% assign absoluteitemurl = item.url | absolute_url %}
     {% assign absolutepageurl = page.url | absolute_url %}
 
-    {% if page.url != '/' and (page.url contains item.url) %}
+    {% if item.url != '/' and (page.url contains item.url) %}
                 <li class="nav-item active">
                     <a class="nav-link" href="{{ item.url }}">1. {{ item.title }}<span class="sr-only">(current)</span></a>
                 </li>
-    {% elsif page.url == '/' and item.url == '/' %}     
+    {% elsif item.url == '/' and page.url == '/' %}     
                 <li class="nav-item active">
                     <a class="nav-link" href="{{ item.url }}">2. {{ item.title }}<span class="sr-only">(current)</span></a>
                 </li>
