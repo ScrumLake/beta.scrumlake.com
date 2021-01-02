@@ -16,8 +16,8 @@
 
 {% for item in site.navigation %}
 
-                a {{page.url}}<br/>
-                b {{item.url}}<br/>
+                {{ page.url }}<br/>
+                {{ item.url }}<br/>
 
     {% if page.url = contains item.url %}
 
