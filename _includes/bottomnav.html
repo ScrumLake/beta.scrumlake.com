@@ -20,9 +20,6 @@
 
                     <ul class="list-unstyled text-small">
 
-
-
-
 {% for item in site.navigation %}
 
                         <li>
@@ -46,11 +43,20 @@
 
                     <h5>Legal</h5>
 
-                    <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="/legal/privacy">Privacy Policy</a></li>
-                        <li><a class="text-muted" href="/legal/terms">Terms and Conditions</a></li>
-                        <li><a class="text-muted" href="/legal/agreements">Copyright, Licenses and Disclaimer</a>
-                        </li>
+                    <ul class="list-unstyled text-small"></ul>
+
+{% for item in site.legal %}
+
+                    <li>
+{% if page.url contains item.url %}     
+                        {{ item.title }}
+{% else %}
+                        <a class="text-muted" href="{{ item.url }}">{{ item.title }}</a>
+{% endif %}
+                    </li>
+
+{% endfor %}
+
                     </ul>
 
                 </div>
