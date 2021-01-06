@@ -16,7 +16,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-N0KBHZQ865"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -26,7 +25,6 @@
     gtag('config', 'G-N0KBHZQ865');
   </script>
 
-  <!-- Hotjar -->
   <script>
     (function (h, o, t, j, a, r) {
       h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
@@ -57,13 +55,13 @@
 
   {% include topnav.html %}
 
-  {% include bubbles.html %}
+  {% include topbubbles.html %}
 
   {{ content }}
 
-  {% include bottomnav.html %}
+  {% include bottombubbles.html %}
 
-  <!-- End TrustBox widget -->
+  {% include bottomnav.html %}
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
