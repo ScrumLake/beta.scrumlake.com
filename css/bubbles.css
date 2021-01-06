@@ -88,7 +88,7 @@
     transform:translate(100px);
   }
   100%{
-    bottom:1620px;
+    bottom:1060px;
     transform:translateX(-200px);
   }
 } 
