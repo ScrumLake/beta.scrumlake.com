@@ -12,53 +12,28 @@ description: Scrum Lake - Our Upcoming Scrum Lake Workshops
 <div class="container">
   <div class="card-deck mb-3 text-center">
 
-    <div class="card mb-4 box-shadow">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Scrum Events</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title">FREE<small class="text-muted"> - 2 hrs</small></h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>10 users included</li>
-          <li>2 GB of storage</li>
-          <li>Email support</li>
-          <li>Help center access</li>
-        </ul>
-        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
-      </div>
-    </div>
+{% for item in site.workshops %}
 
     <div class="card mb-4 box-shadow">
       <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Events and Roles</h4>
+        <h4 class="my-0 font-weight-normal">{{ item.title }}</h4>
       </div>
       <div class="card-body">
-        <h1 class="card-title pricing-card-title">$70 <small class="text-muted">/ 4 hrs</small></h1>
+        <h1 class="card-title pricing-card-title">
+          {{ item.price }}
+          <small class="text-muted"> - 2 hrs</small>
+        </h1>
         <ul class="list-unstyled mt-3 mb-4">
-          <li>20 users included</li>
-          <li>10 GB of storage</li>
-          <li>Priority email support</li>
+          <li>Interactive</li>
+          <li>Co-Creative</li>
+          <li>Workshop</li>
           <li>Help center access</li>
         </ul>
-        <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+        <button href="{{ item.uri }}" type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
       </div>
     </div>
 
-    <div class="card mb-4 box-shadow">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Deep Dive</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title">$100 <small class="text-muted">/ 6hrs</small></h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>30 users included</li>
-          <li>15 GB of storage</li>
-          <li>Phone and email support</li>
-          <li>Help center access</li>
-        </ul>
-        <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
-      </div>
-    </div>
+{% endfor %}
 
   </div>
 </div>
