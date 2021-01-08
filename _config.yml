@@ -22,7 +22,9 @@ workshops:
     price: £40
     startdatetime: 28 November 2020 at 20:00
     enddatetime: 28 November 2020 at 22:00
+    list: ['Apple', 'Orange', 'Strawberry', 'Mango']
     eventimage: artifacts.png
+
   - title: Scrum Lake Events
     uri: https://www.eventbrite.co.uk/e/scrum-lake-artefacts-tickets-130047933871
     price: £40
