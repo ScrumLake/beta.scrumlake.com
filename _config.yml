@@ -25,15 +25,18 @@ workshops:
     list: ['Free Introduction','Short Presentation','Our Approach']
     eventimage: introduction
 
-  - title: Scrum Lake, Scrum Values
+  - title: Scrum Values
     uri: https://www.eventbrite.co.uk/e/scrum-lake-artefacts-tickets-130047933871
     price: £40
     startdatetime: 6 February 2020 at 20:00
     enddatetime: 6 February 2020 at 22:00
+    list: ['Interactive','Co-Creative','Workshop']
     eventimage: 
-  - title: Scrum Lake Deep Dive; Values and Theory
+
+  - title: Scrum Values and Scrum Theory
     uri: https://www.eventbrite.co.uk/e/scrum-lake-artefacts-tickets-130047933871
     price: £70
     startdatetime: 28 November 2020 at 20:00
     enddatetime: 28 November 2020 at 22:00
+        list: ['Interactive','Co-Creative','Workshop']
     eventimage: 
