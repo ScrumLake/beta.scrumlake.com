@@ -17,21 +17,21 @@ legal:
     url: /legal/agreements
 
 workshops:
-  - title: Scrum Lake Artifacts
+  - title: Introduction to Scrum Lake
     uri: https://www.eventbrite.co.uk/e/scrum-lake-artefacts-tickets-130047933871
     price: £40
-    startdatetime: 28 November 2020 at 20:00
-    enddatetime: 28 November 2020 at 22:00
-    list: ['Apple', 'Orange', 'Strawberry', 'Mango']
-    eventimage: artifacts.png
+    startdatetime: 30 January 2020 at 20:00
+    enddatetime: 28 January 2020 at 22:00
+    list: ['Interactive', 'Co-Creative', 'Workshop']
+    eventimage: introduction
 
-  - title: Scrum Lake Events
+  - title: Scrum Lake, Scrum Values
     uri: https://www.eventbrite.co.uk/e/scrum-lake-artefacts-tickets-130047933871
     price: £40
-    startdatetime: 28 November 2020 at 20:00
-    enddatetime: 28 November 2020 at 22:00
+    startdatetime: 6 February 2020 at 20:00
+    enddatetime: 6 February 2020 at 22:00
     eventimage: artifacts.png
-  - title: Scrum Lake Deep Dive
+  - title: Scrum Lake Deep Dive; Values and Theory
     uri: https://www.eventbrite.co.uk/e/scrum-lake-artefacts-tickets-130047933871
     price: £70
     startdatetime: 28 November 2020 at 20:00
