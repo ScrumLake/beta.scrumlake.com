@@ -31,7 +31,7 @@ workshops:
     startdatetime: 6 February 2020 at 20:00
     enddatetime: 6 February 2020 at 22:00
     list: ['Interactive','Co-Creative','Workshop']
-    eventimage: 
+    eventimage: theoryandvalues
 
   - title: Scrum Theory and Values
     uri: https://www.eventbrite.co.uk/e/scrum-lake-artefacts-tickets-130047933871
@@ -39,4 +39,4 @@ workshops:
     startdatetime: 28 November 2020 at 20:00
     enddatetime: 28 November 2020 at 22:00
     list: ['Interactive','Co-Creative','Workshop']
-    eventimage: 
+    eventimage: theoryandvalues
