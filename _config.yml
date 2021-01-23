@@ -38,5 +38,5 @@ workshops:
     price: £70
     startdatetime: 28 November 2020 at 20:00
     enddatetime: 28 November 2020 at 22:00
-        list: ['Interactive','Co-Creative','Workshop']
+    list: ['Interactive','Co-Creative','Workshop']
     eventimage: 
