@@ -17,26 +17,6 @@ legal:
     url: /legal/agreements
 
 workshops:
-  - title: Scrum Lake Bedrock
-    uri: https://www.eventbrite.co.uk/e/scrum-lake-artefacts-tickets-130047933871
-    price: $40
-    startdatetime: 6 February 2020 at 20:00
-    enddatetime: 28 February 2020 at 22:00
-    bullets: ['Interactive','Co-Creative','Workshop']
-    eventimage: bedrock
-
-  - title: Scrum Lake Artefacts 
-    uri: https://www.eventbrite.co.uk/e/scrum-lake-artefacts-tickets-130047933871
-    price: $65
-    startdatetime: 20 February 2020 at 20:00
-    enddatetime: 20 February 2020 at 22:00
-    bullets: ['Interactive','Co-Creative','Workshop']
-    eventimage: artefacts 
-
-  - title: Scrum Lake Introduction
-    uri: https://www.eventbrite.co.uk/e/scrum-lake-artefacts-tickets-130047933871
-    price: Free
-    startdatetime: 28 November 2020 at 20:00
-    enddatetime: 28 November 2020 at 22:00
-    bullets: ['Free Introduction','Presentation','Our Approach']
-    eventimage: introduction
+  - eventidchk: id/584261/chk/17d3
+  - eventidchk: id/586866/chk/8941
+  - eventidchk: id/586867/chk/c8a0
