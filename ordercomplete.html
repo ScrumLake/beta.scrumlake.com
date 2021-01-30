@@ -41,9 +41,22 @@ description: Co-creative Scrum exploration workshops using the power of metaphor
 
 <script>
 
-    const urlParams = new URLSearchParams(queryString); 
-    var tt_order_id = urlParams.get('tt_order_id');
-    var tt_order_value = urlParams.get('tt_order_value');
+    function GetURLParameter(sParam)
+    {
+        var sPageURL = window.location.search.substring(1);
+        var sURLVariables = sPageURL.split('&');
+        for (var i = 0; i < sURLVariables.length; i++) 
+        {
+            var sParameterName = sURLVariables[i].split('=');
+            if (sParameterName[0] == sParam) 
+            {
+                return sParameterName[1];
+            }
+        }
+    }
+
+    var tt_order_id = GetURLParameter('tt_order_id');
+    var tt_order_value = GetURLParameter('tt_order_value');
 
     document.getElementById("OrderComplete").innerHTML = "tt_order_id " + tt_order_id + " Complete"
     document.getElementById("OrderComplete").innerHTML = "tt_order_value " + tt_order_value + " Complete"
