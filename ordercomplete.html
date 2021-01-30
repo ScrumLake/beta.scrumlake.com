@@ -5,8 +5,6 @@ title: Scrum Lake - Order Complete
 description: Co-creative Scrum exploration workshops using the power of metaphor
 ---
 
-<!-- https://scrumlake.com/events/ordercomplete?tt_order_id=13130321&tt_order_value=24&tt_event_id=584261&tt_currency=GBP -->
-
 <div class="page-wrap d-flex flex-row align-items-center">
 
     <div class="container">
@@ -18,8 +16,8 @@ description: Co-creative Scrum exploration workshops using the power of metaphor
                 <img class="img-fluid" src="/images/ship.png" width="192" height="106"
                     alt="Thank you for your Scrum Lake Order" />
 
-                <div class="mb-4 lead">Thank you for your Scrum Lake Workshop Order</div>
-
+                <div class="mb-4 lead">Thank you for your Scrum Lake Workshop Order: <span id="OrderID"></span></div>
+                
                 <div class="mb-4 lead">Further details and joining instructions will be provided via email before the event. If you have any questions please don't hesitate to reach out to either Ryan or John</div>
 
                 <a href="/" class="btn btn-link">return to Scrum Lake</a>
@@ -29,9 +27,13 @@ description: Co-creative Scrum exploration workshops using the power of metaphor
     </div>
 </div>
 
+ <!--const urlParams = new URLSearchParams(queryString); -->    
 
 <script>
 
-    document.getElementById("OrderComplete").innerHTML = "Order" + 1 + "Complete"
+    const urlParams = new URLSearchParams('https://scrumlake.com/events/ordercomplete?tt_order_id=13130321&tt_order_value=24&tt_event_id=584261&tt_currency=GBP');
+    var tt_order_id = getParameterByName('tt_order_id');
+
+    document.getElementById("OrderComplete").innerHTML = "OrderID " + tt_order_id + " Complete"
 
 </script>
