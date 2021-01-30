@@ -39,16 +39,13 @@ description: Co-creative Scrum exploration workshops using the power of metaphor
     </div>
 </div>
 
- <!--const urlParams = new URLSearchParams(queryString); -->    
-
 <script>
 
-    const urlParams = new URLSearchParams('https://scrumlake.com/events/ordercomplete?tt_order_id=13130321&tt_order_value=24&tt_event_id=584261&tt_currency=GBP');
-    var tt_order_id = getParameterByName('tt_order_id');
+    const urlParams = new URLSearchParams(queryString); 
+    var tt_order_id = urlParams.get('tt_order_id');
+    var tt_order_value = urlParams.get('tt_order_value');
 
     document.getElementById("OrderComplete").innerHTML = "tt_order_id " + tt_order_id + " Complete"
     document.getElementById("OrderComplete").innerHTML = "tt_order_value " + tt_order_value + " Complete"
-
-    
 
 </script>
