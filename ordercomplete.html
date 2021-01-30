@@ -19,7 +19,7 @@ description: Co-creative Scrum exploration workshops using the power of metaphor
                 <div class="mb-4 lead">Thank you for registering for our upcoming workshop</div>
                 
 
-                <div class="mb-4 lead">Thank you for your Payment of £ <span id="tt_order_value"></span> Your Order ID is: <span id="tt_order_id"></span></div>
+                <div class="mb-4 lead">Thank you for your Payment of £<span id="tt_order_value"></span> Your Order ID is: <span id="tt_order_id"></span></div>
 
                 <div class="mb-4 lead">Further details and joining instructions will be provided via email before the event</div>
                 
@@ -55,7 +55,7 @@ description: Co-creative Scrum exploration workshops using the power of metaphor
         }
     }
 
-    document.getElementById("tt_order_value").innerHTML = GetURLParameter('tt_order_id');
-    document.getElementById("tt_order_id").innerHTML = GetURLParameter('tt_order_value');
+    document.getElementById("tt_order_value").innerHTML = GetURLParameter('tt_order_value ');
+    document.getElementById("tt_order_id").innerHTML = GetURLParameter('tt_order_id');
 
 </script>
