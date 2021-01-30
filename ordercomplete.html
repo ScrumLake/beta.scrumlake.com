@@ -55,10 +55,7 @@ description: Co-creative Scrum exploration workshops using the power of metaphor
         }
     }
 
-    var tt_order_id = GetURLParameter('tt_order_id');
-    var tt_order_value = GetURLParameter('tt_order_value');
-
-    document.getElementById("OrderComplete").innerHTML = "tt_order_id " + tt_order_id + " Complete"
-    document.getElementById("OrderComplete").innerHTML = "tt_order_value " + tt_order_value + " Complete"
+    document.getElementById("OrderComplete").innerHTML = GetURLParameter('tt_order_id');
+    document.getElementById("OrderComplete").innerHTML = GetURLParameter('tt_order_value');
 
 </script>
