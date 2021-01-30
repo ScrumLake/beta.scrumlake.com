@@ -5,13 +5,15 @@ title: Scrum Lake - Order Complete
 description: Co-creative Scrum exploration workshops using the power of metaphor
 ---
 
+<!-- https://scrumlake.com/events/ordercomplete?tt_order_id=13130321&tt_order_value=24&tt_event_id=584261&tt_currency=GBP -->
+
 <div class="page-wrap d-flex flex-row align-items-center">
 
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 text-center">
 
-                <span class="display-1 d-block">Order Complete</span>
+                <span id="OrderComplete" class="display-1 d-block">Order Complete</span>
 
                 <img class="img-fluid" src="/images/ship.png" width="192" height="106"
                     alt="Thank you for your Scrum Lake Order" />
@@ -26,3 +28,10 @@ description: Co-creative Scrum exploration workshops using the power of metaphor
         </div>
     </div>
 </div>
+
+
+<script>
+
+    document.getElementById("OrderComplete").innerHTML = "Order" + 1 + "Complete"
+
+</script>
