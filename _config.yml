@@ -17,7 +17,7 @@ legal:
     url: /legal/agreements
 
 workshops:
-  - eventidchk: id/584261/chk/17d3
+ # - eventidchk: id/584261/chk/17d3
   - eventidchk: id/598600/chk/7874
 #  - eventidchk: id/586866/chk/8941
 #  - eventidchk: id/586867/chk/c8a0
